@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Tạo 1 trang web quản lý sách </title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<style>
+    body {
+    margin: 0;
+  background-color :white;
+}
+.jumbotron { 
+        background-color:rgb(109, 121, 235);
+        color:white;
+    }
+.topnav {
+    overflow: hidden;
+    background-color: lightgreen;
+    list-style-type: none;
+    letter-spacing: 0px;
+    margin-bottom: 0;
+    font-size: 20px !important;
+}
+.topnav a {
+    float: left ;
+    display: block;
+    color: rgba(13, 14, 13, 0.925);
+    text-align: center;
+    padding: 16px 20px;
+    text-decoration: none;
+}
+.card {
+    background-color:white;
+    padding: 20px;
+    margin-top: 20px;
+}
+.Rightcolumn {   
+    float: right;
+    width: 75%;
+}
+.header {
+ background-color:orange;
+   overflow: hidden;
+    list-style-type: none;
+    letter-spacing: 2px;
+    margin-bottom: 0;
+    font-size: 18px !important;
+ }
+.leftColumn {   
+    float: left;
+    width: 25%;
+}
+</style>
+</head>
+<body>
+<div class="jumbotron text-center">
+        <h1> HỆ THỐNG NHÀ SÁCH TIỀN PHONG </h1>
+</div>
+<div class="topnav">
+        <ul class="nav navbar-nav">
+          <li class=""><a href="http://tienphongjsc.com/">Trang chủ</a></li>
+          <li><a href="http://tienphongjsc.com/gioi-thieu/index.html"> Thông tin Công ty </a></li>
+          <li><a href="#">Tìm kiếm</a></li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="http://nhasachtienphong.com.vn/customer/account/"> Đăng nhập </a></li>
+          <li><a href="http://nhasachtienphong.com.vn/checkout/cart/"><span class="glyphicon glyphicon-shopping-cart"></span> Giỏ hàng</a></li>
+        </ul>
+      </div>
+  <div class="container-fluid">
+      <div class="row content">
+        <div class="col-sm-3 sidenav">
+          <h4>    </h4>
+          <br>
+          <br>
+          <ul class="nav nav-pills nav-stacked">
+            <li class="active"><a href="#section1">THÔNG TIN MỚI</a></li>
+            <li><a href="http://nhasachtienphong.com.vn/bestsellers-week/">Sản phẩm bán chạy</a></li>
+            <li><a href="http://nhasachtienphong.com.vn/newproducts/">Sản phẩm mới</a></li>
+            <li><a href="http://nhasachtienphong.com.vn/bestsellers-week/sach/"> Sách bán chạy</a></li>
+            <li><a href="http://nhasachtienphong.com.vn/saleproducts?cat=89/">Sách giảm giá</a></li>
+            <li><a href="http://nhasachtienphong.com.vn/saleproducts?cat=20/"> Đồ chơi - quà tặng giảm giá</a></li>
+            <li><a href="http://nhasachtienphong.com.vn/saleproducts?cat=19/"> VPP giảm giá</a></li>
+          </ul><br>
+        </div>
+        <br> <br>
+        
+  <div class="container-fluid text-center">
+        <h2>TẤT CẢ DANH MỤC</h2>
+        <br>
+        <div class="row">
+                <div class="Rightcolumn">
+                        <div class="card">
+          <div class="col-sm-4">
+            <H3> <a href="http://nhasachtienphong.com.vn/sach.html"> SÁCH </a></H3> 
+            <img src="http://nhasachtienphong.com.vn/media/catalog/product/cache/1/small_image/210x/9df78eab33525d08d6e5fb8d27136e95/k/h/khoi-day-tiem-nang-cua-be-minh-cung-choi-do-hang_1.jpg">
+          </div>
+          <div class="col-sm-4">
+                <H3> <a href="http://nhasachtienphong.com.vn/do-dung-hoc-tap.html"> ĐỒ DÙNG HỌC TẬP </a></H3> 
+                <img src="http://nhasachtienphong.com.vn/media/catalog/product/cache/1/small_image/210x/9df78eab33525d08d6e5fb8d27136e95/b/o/bo-sap-mau-luna-2200-lc12_1.jpg">
+          </div>
+          <div class="col-sm-4">
+                <H3> <a href="http://nhasachtienphong.com.vn/do-choi.html"> ĐỒ CHƠI </a></H3>
+                <img src="http://nhasachtienphong.com.vn/media/catalog/product/cache/1/small_image/210x/9df78eab33525d08d6e5fb8d27136e95/b/t/bt2443-pr.jpg">
+          </div>
+        </div>
+        </div>
+        </div>
+        <br><br>
+        <div class="row">
+                <div>
+                        <div class="card">
+          <div class="col-sm-4">
+                <H3> <a href="http://nhasachtienphong.com.vn/van-phong-pham.html"> VĂN PHÒNG PHẨM </a></H3>
+                <img src="http://nhasachtienphong.com.vn/media/catalog/product/cache/1/small_image/210x/9df78eab33525d08d6e5fb8d27136e95/b/u/but-xoa-nuoc-deli-7298_1.jpg">
+        
+          </div>
+          <div class="col-sm-4">
+             <H3> <a href="http://nhasachtienphong.com.vn/balo-cap-xach.html"> BALO CẶP SÁCH </a></H3>
+            <img src="http://nhasachtienphong.com.vn/media/catalog/product/cache/1/small_image/210x/9df78eab33525d08d6e5fb8d27136e95/b/a/ba-lo-edison-624_1.jpg">
+          </div>
+          <div class="col-sm-4">
+                <H3> <a href="http://nhasachtienphong.com.vn/san-pham-doc-dao.html"> SẢN PHẨM ĐỘC ĐÁO </a></H3>
+         <  <img src="http://nhasachtienphong.com.vn/media/catalog/product/cache/1/small_image/210x/9df78eab33525d08d6e5fb8d27136e95/k/h/khay-nhua-gia-may-558_1.jpg">
+          </div>
+          </div>
+          </div>
+          </div>
+          <br><br>
+        <div class="row">
+                <div >
+                        <div class="card">
+                <div class= "col-sm-4" >
+                        <H3> <a href="http://nhasachtienphong.com.vn/do-luu-niem.html/">  ĐỒ LƯU NIỆM </a></H3>
+                        <img src="http://nhasachtienphong.com.vn/media/catalog/product/cache/1/small_image/210x/9df78eab33525d08d6e5fb8d27136e95/C/h/Chau-tu-cau-de-ban_1.jpg">
+                  </div>
+          <div class="col-sm-4">
+                <H3> <a href="http://nhasachtienphong.com.vn/hang-nhat.html"> HÀNG NHẬT</a></H3>
+                <img src="http://nhasachtienphong.com.vn/media/catalog/product/cache/1/small_image/210x/9df78eab33525d08d6e5fb8d27136e95/4/9/4956810226092_1_1.jpg">
+          </div>
+         <div class= "col-sm-4" >
+                <H3> <a href="http://nhasachtienphong.com.vn/san-pham-khac-1.html">  SẢN PHẨM KHÁC </a></H3>
+                <img src="http://nhasachtienphong.com.vn/media/catalog/product/cache/1/small_image/210x/9df78eab33525d08d6e5fb8d27136e95/m/a/mat-na-bun-purederm-vitamin-e-nhan-sam_1.jpg">
+          </div>
+          </div>
+        </div>
+      </div>
+      </div>
+      <br>
+      <br>
+      <div class="topnav" id="myNavbar">
+        <div class="header">
+          <ul class="nav navbar-nav">
+            <h4 class="active"><a href="#">© 2018 - Công ty cổ phần Tiền Phong</a></h4> <br>
+            <h4><a href="#">Địa chỉ: Tòa nhà Tiền Phong, số 15 Hồ Xuân Hương, Q. Hai Bà Trưng, Hà Nội.</a></h4>
+        </ul>
+        <br>
+          <ul class="nav navbar-nav navbar-right"> Hotline: 0965.678.361 </a></li>
+            <br>
+            <ul class="nav navbar-nav navbar-right">Gmail:ngocvan100297@gmail.com</a></li>
+          </ul>
+        </div>
+      </div>       
+</html>
