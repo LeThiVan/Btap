@@ -1,0 +1,117 @@
+<html>
+    <head>
+        <title> ĐangKyThanhVien </title>
+    </head>
+    <style>
+body {
+    margin: 0;
+  background-color:#F5FFFA;
+}
+h2 { 
+  font-size: 30px; 
+  line-height:38px; 
+  font-weight:normal; 
+}
+ 
+.loginbox {
+ background:#FF9900; 
+ padding: 4px; width: 490px; 
+ margin: 4% auto 0 auto; 
+ position: relative; 
+}
+ 
+.loginboxinner {
+  background:rgba(128, 128, 128, 0.486); 
+  padding: 5px; position: relative; 
+  border: 1px solid #FBFCFD;
+  -moz-box-shadow: inset 0 1px 0 rgba(224, 17, 114, 0.897); 
+  -webkit-box-shadow: inset 0 1px 0 #FBFCFD; 
+  box-shadow: inset 0 1px 0 #FBFCFD;
+}
+.loginform { margin: 2px auto; text-align:center; }
+ 
+.loginbox p { margin: 7px 0 5px 0; }
+ 
+.loginbox input.mini { width:195px; }
+ 
+.loginbox input {
+  padding: 12px 10px; 
+  color:black;
+  font-family: Arial, Helvetica, sans-serif; 
+  margin-top: 8px; 
+  font-size: 15px; 
+  border: 1px solid black; 
+  width: 420px;  
+  outline: none;
+}
+ 
+.loginbox button {
+  background:#FF9900; 
+  background-image:-webkit-linear-gradient(top,#FF9900); 
+  padding: 10px 20px; 
+  font-size: 18px; 
+  border: 1px solid #1D3871; 
+  letter-spacing: 1px; color: #fff; width: 440px; 
+  line-height:30px; font-family:  'Helvetica Neue', Helvetica, Arial, sans-serif;
+  -moz-box-shadow: 1px 1px 3px #1D3871; 
+  -webkit-box-shadow: 1px 1px 3px #1D3871; 
+  box-shadow: 1px 1px 3px #1D3871; 
+  cursor: pointer;
+}
+ 
+.radius { 
+  -moz-border-radius: 5px; 
+  -webkit-border-radius: 5px; 
+  border-radius: 5px; 
+}
+ 
+.radius1 { 
+  -moz-border-radius: 3px; 
+  -webkit-border-radius: 3px; 
+  border-radius: 3px; 
+}
+ 
+.title { 
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; 
+  color:#8E989E; line-height:28px; 
+  font-weight:normal; 
+  text-align:center; 
+  font-size:16px; 
+}
+
+.jumbotron { 
+        width: 200%;
+    }
+
+    </style>
+<body>
+        <div class="jumbotron">
+                <img src="http://www.fruitcocktail.nl/images/bg-header-index.jpg" Height="350" alt="">
+        </div> 
+  <div class="loginbox radius">
+    <h2 style="color:#141823; text-align:center;">Đăng ký thành viên</h2>
+    <div class="loginboxinner radius">
+      <div class="loginform">
+        <form id="login" action="" method="post">
+          <p>
+            <input type="text" id="firstname" name="firstname" placeholder="First Name" value="" class="radius mini" />
+            <input type="text" id="lastname" name="lastname" placeholder="Last Name" value="" class="radius mini" />
+          </p>
+          <p>
+            <input type="text" id="email" name="email" placeholder="Nhập mail" value="" class="radius" />
+          </p>
+          <p>
+            <input type="password" id="password" name="password" placeholder="Nhập mật khẩu" class="radius" />
+          </p>
+          <p>
+            <input type="password" id="password" name="password" placeholder="Nhập lại mật khẩu" class="radius" />
+          </p>
+          <p>
+            <button class="radius title" name="Đăng ký thành công">Lưu </button>
+          </p>
+        </form>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
